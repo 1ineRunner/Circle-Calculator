@@ -1,0 +1,68 @@
+--Circle Calculator Update Log--
+
+
+
+First few lines of code written and logged on 25/06/2022. With Tkinter module imported,
+first class created, and setup for the window and window variables
+
+First section of code written to create labels and text on the Tkinter GUI with lists,
+selected fonts, and functions on 25/06/2022
+
+Created labels for the calculated results; Circle area, diameter, circumference.
+Created a title label "-Input a Value-" and label for radius diagram on 25/06/2022
+
+Created static function for calculating the different results using the variable
+the user has put into the "r = " Bar on 25/06/2022. Area = (3.14*r^2)
+                                                    Diameter = (2*r)
+                                                    Circumference = (2*3.14*r)
+
+Created labels for calculated answers to put beside their respective titles:
+                                 Area, Diameter, Circumference on 25/06/2022
+
+Made a note from stakeholder feedback and my peers that some input variables generate
+large and long decimal answers and that it would be good if I could find a way to fit
+it all on the page or round the answers to a certain decimal place on 26/06/2022
+
+Created simple labels and functions for a page zoom in and out. to accommodate for anyone
+who needs to view larger or wants to view smaller characters on their screen. I have
+created a limit on how far the page can be zoomed in and out based on the size of the font
+of the characters on 26/06/2022
+
+Created text colour changer using Tkinter's built-in colour picker for anyone who would like
+to see the characters in a different font colour on 26/06/2022
+
+Coded in exception for the return error "tkinter.TclError" which occurs when a user enters
+a non-numeric value to calculate with. The exception returns "Please enter a number between
+-999 and 999" to the end user with a red bold label on 09/08/2022
+
+Simple formatting and code change by changing the title label from "value" to "radius" and
+putting the order of calculations to: Area, Diameter, Circumference to make the code and
+the GUI look a little neater  on  10/08/2022
+
+Created extra variable in the "Find" function for a rounded calculation to shorten the
+amount of digits the end-user sees on screen. This makes the GUI look neater, tidier, and
+easier for the end-user to look at on 11/08/2022
+
+Finished some small touch ups to formatting of classes and removed some redundant pieces
+of code. Combining the "Resolution" Class and the "Run" Class into one and running the
+help dialogue along side the calculator app. This improves code efficiency and makes it
+easier to read. Updated on 20/08/2022
+
+Have received feedback from my Stakeholders and have been told that a requirement of this
+program is to be able to manage two different inputs from the end user, one being an
+integer or a floating point value and the other being a string or alphanumeric. So I plan
+to modify my code slightly so that the program deals with these requirements. I plan to
+change the units drop down menu function to a string value that the end user types to make
+their own units of measurement. This would allow for more universal use, and not just
+limited to the units that are already pre-programmed into the application.
+Updated on 25/08/2022
+
+As request by my Stakeholders I have added an entry box for a String variable for the
+end-user to place some units for their measurements and calculated answers, this is instead
+of having a selection drop-down menu. Updated on 27/08/2022
+
+Created if statement that checks the string contents of the units input by the end user
+and will decide whether they are a valid string to use as units based on if it has anything
+other the letters in the string and if the string is less than 5 characters long. This is
+to accomodate the need for a String variable input from the user made by the primary
+stakeholder. Updated on 28/08/2022
